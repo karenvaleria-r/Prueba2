@@ -1,125 +1,23 @@
 /* src/App.css */
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: white;
-}
-
-
-.container-fluid {
-position: relative;
-min-height: 100vh;
-}
-
-
-/* Sidebar */
-.Rectangulo1 {
-  background: rgba(0, 150, 255, 0.57);
+.app-container {
+  display: flex;
   height: 100vh;
-  width: 25%;
-  position: fixed;
-  left: 0;
-  top: 0;
+}
+
+.rectangulo-container {
+  background: rgba(0, 150, 255, 0.57);
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
-  position: fixed;
-  
 }
 
-.Rectangulo1 img {
+.rectangulo1 img {
   max-width: 90%;
-  margin: 20px;
+  align-self: flex-end;
 }
 
-/* Header */
-.RegistraTuPyme {
-  text-align: center;
-  font-size: 35px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  line-height: 115px;
-  color: black;
-  position: absolute;
-  right: 600px;
-  top: 20px;
-}
-
-.bolas {
-  width: 278px;
-  height: 50px;
-  position: relative;
-  margin: 0 auto;
+.main-content {
+  flex: 1;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.Bola1, .Bola2, .Bola3 {
-  width: 55px;
-  height: 55px;
-  background: #9091DD;
-  border-radius: 50%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.Bola2, .Bola3 {
-  filter: blur(5px);
-}
-
-.Linea1, .Linea2 {
-  position: absolute;
-  top: 25px;
-  border: 1px solid #9091DD;
-  width: 60px;
-}
-
-.Linea1 {
-  left: 55px;
-}
-
-.Linea2 {
-  left: 170px;
-}
-
-/*Form css */
-.DatosPersonales {
-  font-size: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  line-height: 27.50px;
-  color: black;
-  padding: 160px 350px;
- 
- 
- 
-}
-
-label {
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  line-height: 24px;
-  color: black;
-  margin-top: 20px;
-  padding-left: 40px;
-}
-
-.form-control {
-  background: rgba(170, 217, 217, 0.19);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
-  border-radius: 80px;
-  width: 80%;
-  margin-left: 40px;
-}
-
-.DatosContrasena {
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  line-height: 24px;
-  color: black;
-  text-align: justify;
-  margin-top: 20px;
-  padding-left: 40px;
+  flex-direction: column;
 }

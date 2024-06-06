@@ -1,0 +1,99 @@
+.DatosPersonalesForm {
+  padding: 30px;
+}
+.DatosPersonalesForm .DatosPersonales {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-left: 40px;
+}
+
+.DatosPersonalesForm .form-group label {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+  padding-left: 40px;
+  align-items: center; /**/
+  flex-direction: row;/**/
+  white-space: nowrap;
+  margin-right: 600px;
+}
+
+.DatosPersonalesForm .form-control {
+  background: rgba(170, 217, 217, 0.19);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 80px;
+  width: 60%;
+  margin-left: 40px;
+}
+
+.DatosPersonalesForm .DatosContrasena {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: black;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 40px;
+}
+
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .DatosPersonalesForm {
+    padding: 20px;
+  }
+
+  .DatosPersonalesForm .DatosPersonales {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .DatosPersonalesForm .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DatosPersonalesForm .form-group label {
+    padding-left: 0;
+    margin-right: 0;
+    width: auto; 
+    margin-bottom: 5px;
+  }
+
+  .DatosPersonalesForm .form-control {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .DatosPersonalesForm .DatosContrasena {
+    padding-left: 0;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .DatosPersonalesForm {
+    padding: 10px;
+  }
+
+  .DatosPersonalesForm .DatosPersonales {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .DatosPersonalesForm .form-group label {
+    font-size: 14px;
+  }
+
+  .DatosPersonalesForm .form-control {
+    padding: 8px 15px;
+  }
+
+  .DatosPersonalesForm .DatosContrasena {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}
