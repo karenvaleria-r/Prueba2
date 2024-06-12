@@ -1,0 +1,149 @@
+
+.RegistroPyme1 {
+    background: white;
+    min-height: 100vh;
+}
+
+.Rectangulo1 {
+    background: rgba(0, 150, 255, 0.57);
+    min-height: 100vh;
+    max-width: 100%;
+    justify-content: end;
+    display: flex;
+    align-items: flex-end;
+}
+.Rectangulo1 img {
+    max-width: 90%;
+    align-self: flex-end;
+}
+.RegistraTuPyme {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 115px;
+    color: black;
+}
+.DatosPersonales {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 27.50px;
+    color: black;
+    padding-left: 40px;
+}
+
+.NombrePyme,
+.RolPyme,
+.AreasMejora {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    padding-left: 40px;
+   
+}
+
+/* Css Botones */
+.bolas{
+    width: 278px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    align-items: center;
+}
+.Bola1{
+    width: 55px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border-radius: 9999px;
+}
+.Bola2 {
+    width: 55px;
+    height: 55px;
+    left: 111px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 9999px;
+    filter: blur(5px)
+}
+.Bola3{
+    width: 55px;
+    height: 55px;
+    left: 222px;
+    top: 0px;
+    position: absolute;
+    background: #9091DD;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 9999px;
+    filter: blur(5px)
+}
+.Linea1{
+    width: 59.55px;
+    height: 0px;
+    left: 51.57px;
+    top: 25.56px;
+    position: absolute;
+    transform: rotate(-0.53deg);
+    transform-origin: 0 0;
+    border: 1px #8080D7 solid;
+}
+.Linea2{
+    width: 59.55px;
+    height: 0px;
+    left: 165.15px;
+    top: 25.56px;
+    position: absolute;
+    transform: rotate(-0.53deg);
+    transform-origin: 0 0;
+    border: 1px #9091DD solid;
+}
+
+.Rectangulo2,
+.Rectangulo3{
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 80px;
+    width: 70%;
+    margin-left: 40px;
+}
+.Rectangulo5 {
+    background: rgba(170, 217, 217, 0.19);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 80px;
+    width: 70%;
+}
+
+.button-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.btn-custom {
+    width: 100%;
+    height: 48px;
+    padding: 7px 7px;
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+    border: 1px solid #7127FF;
+    background-color: white; /* Puedes ajustar el color de fondo si es necesario */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-custom.selected {
+    background-color: #7127FF;
+    color: white;
+}
